@@ -1,0 +1,59 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-size: 50px;
+    color: #000;
+}
+.father{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    column-gap: 40px;
+}
+.header{
+    display: flex;
+    flex-basis: 100%;
+    /*background: cornflowerblue;*/
+    flex-direction: row;
+    row-gap: 40px;
+    column-gap: 40px;
+}
+.menu{
+    background: green;
+    flex-grow: 1;
+    height: 800px;
+}
+.about{
+    background: brown;
+    flex-grow: 1;
+    height: 800px;
+}
+.kabob{
+    flex-basis: 100%;
+    background: beige;
+    height: 600px;
+}
+.footer{
+    row-gap: 40px;
+    column-gap: 40px;
+    display: flex;
+    flex-basis: 100%;
+}
+.sishkabobs{
+    background: darkkhaki;
+    height: 500px;
+    flex-grow: 1;
+}
+.BBQkabobs{
+    background: darksalmon;
+    height: 500px;
+    flex-grow: 1;
+}
+.Summerkabobs{
+    background: lightcyan;
+    height: 500px;
+    flex-grow: 1;
+}
