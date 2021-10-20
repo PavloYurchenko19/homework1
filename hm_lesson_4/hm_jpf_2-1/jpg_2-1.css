@@ -1,0 +1,48 @@
+.color-cfv-blue{
+    background: cornflowerblue;
+}
+.color-tan{
+    background: tan;
+}
+.h400{
+    height: 400px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    font-size: 35px;
+    color: #000;
+}
+.color-violet{
+    background: violet;
+}
+.h100_w100{
+    height: 100px;
+    flex-basis: 100%;
+}
+.h_auto__grow1{
+    height: auto;
+    flex-grow: 1;
+}
+.flex_wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.grow3{
+
+    flex-grow: 3;
+}
+
+.gap{
+row-gap: 20px;
+column-gap: 20px;
+}
+.padding{
+    margin-top: 20px;
+}
+
+
+
