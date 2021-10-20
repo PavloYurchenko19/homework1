@@ -1,0 +1,31 @@
+.div_center{
+    background: darkblue;
+    flex-grow: 1;
+    height: 400px;
+
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    padding: 20px 0;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+}
+.block{
+
+    width: 100%;
+    background: cornflowerblue;
+
+}
+.h500{
+    height: 500px;
+}
+.h800{
+    height: 800px;
+}
