@@ -150,10 +150,38 @@
 
 .tree_square {
     column-gap: 40px;
-    position: absolute;
-    bottom: 170px;
+    position: relative;
 }
-
+.tree_square::after{
+    content: "";
+    width: 300px;
+    position: absolute;
+    height: 300px;
+    border-radius:20px ;
+    top:130px;
+    left: 250px;
+    background: var(--blue);
+}
+.bef::before{
+    content: "";
+    width: 300px;
+    position: absolute;
+    height: 300px;
+    border-radius:20px ;
+    top:130px;
+    right: 230px;
+    background: var(--blue);
+}
+.tree_square::before{
+    content: "";
+    width: 300px;
+    position: absolute;
+    height: 300px;
+    border-radius:20px ;
+    top:130px;
+    left:-140px ;
+    background: var(--blue);
+}
 .fg {
     flex-grow: 1;
 }
