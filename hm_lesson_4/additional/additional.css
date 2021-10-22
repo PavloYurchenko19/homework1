@@ -151,7 +151,7 @@
 .tree_square {
     column-gap: 40px;
     position: absolute;
-    bottom: -170px;
+    bottom: 170px;
 }
 
 .fg {
@@ -160,6 +160,9 @@
 
 .menu_bottom {
     padding-top: 300px;
+}
+.w100{
+    width: 100%;
 }
 
 .wrap {
@@ -210,26 +213,25 @@
 
 .h300 {
     height: 300px;
-    width: 30%;
+    width: 28%;
 }
 
 .slider {
+    align-items: center;
     padding-top: 60px;
     justify-content: space-around;
 }
 
 .icon_r {
     font-size: 80px;
-    position: absolute;
-    right: 116px;
-    bottom: -3300px;
+
+
 }
 
 .icon_l {
     font-size: 80px;
-    position: absolute;
-    left: 116px;
-    bottom: -3300px;
+
+
 }
 
 .end_content {
@@ -238,15 +240,14 @@
 
 .circle {
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    box-sizing: border-box;
     width: 300px;
     height: 300px;
 
 }
 
 .end_text {
+    width: 65%;
     padding: 45px 25px 25px 60px;
 }
 
