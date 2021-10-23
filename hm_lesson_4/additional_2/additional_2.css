@@ -204,7 +204,7 @@
 
 }
 .mar_t96{
-   margin-top: 96px;
+    margin-top: 96px;
 }
 .sps-between{
     justify-content: space-between;
@@ -269,12 +269,6 @@
 }
 .footer{
 
-     width: 80%;
+    width: 80%;
     margin: 0 auto;
- }
-
-
-
-
-
-
+}
