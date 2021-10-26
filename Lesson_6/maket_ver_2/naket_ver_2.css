@@ -1,0 +1,245 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Tinos', serif;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.wrapper{
+    max-width: 1200px;
+    padding: 0;
+    margin: 0;
+}
+.df{
+    display: flex;
+}
+.header{
+    height: 100vh;
+    background: url("../image/bg.png") no-repeat center/cover;
+}
+.header__top {
+    margin: 0 auto;
+    padding-top: 50px;
+    position: relative;
+}
+.header__top_menu{
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav__item img{
+    height: 20px;
+    width: 20px;
+}
+.burger{
+    display: none;
+}
+.nav__item a{
+    font-family: Open Sans;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: none;
+}
+.column_gap{
+    column-gap: 25px;
+}
+.nav{
+    align-items: center;
+    height: 65px;
+    margin-right: 35px;
+    padding: 0 35px 0 0;
+    border-right: 1px solid #FFFFFF;
+}
+.menu__contact{
+    width: 154px;
+    height: 38px;
+    padding: 0;
+    align-content: center;
+
+}
+.contact__phone p{
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact__phone img{
+    height: 23px;
+    width: 23px;
+}
+.menu__contact{
+    padding-right: 50px;
+}
+.column{
+    flex-direction: column;
+}
+.contact__text{
+    padding-top: 0;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.color__orange{
+    background: #FF7400;
+
+}
+.header__button{
+    border: none;
+    width: 157px;
+    height: 47px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+
+}
+
+.header__text{
+    padding-top: 230px;
+    max-width: 500px;
+}
+.header__text h2{
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 57px;
+    color: #D67E35;
+
+}
+.header__text h1{
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 92px;
+    color: #D67E35;
+    margin: 0;
+}
+.header__text p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    display: flex;
+    line-height: 25px;
+    color: #FFFFFF;
+    position: relative;
+    align-items: center;
+
+}
+.header__text button {
+    margin-top: 30px;
+}
+.position__div{
+    position: absolute;
+    column-gap: 31px;
+    top:780px
+
+}
+.position__box{
+    box-sizing: border-box;
+    width: 349px;
+    height: 328px;
+
+    background: #FFFFFF;
+    align-items: center;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1)
+}
+.position__box img{
+    height: 126px;
+    width: 104px;
+
+    margin-top: 35px;
+}
+.position__box h2{
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    color: #2C2C2C;
+}
+.position__box span{
+    color: #BC9060;
+}
+.position__box p{
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    margin:  0 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #656363;
+}
+.header__text p::after,
+.header__text p::before{
+    content: "";
+    position: absolute;
+    width: 61px;
+    height: 2px;
+    background: #C4C4C4;
+}
+.header__text p::before{
+    left: 180px;
+}
+.header__text p::after{
+    right: 180px;
+}
+
+
