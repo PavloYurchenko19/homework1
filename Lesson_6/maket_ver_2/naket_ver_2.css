@@ -331,7 +331,6 @@ align-self: flex-end;
     width: 100%;
 }
 .main_content h2 {
-    display: flex;
     justify-content: center;
     Font-family: Tinos;
     align-self: center;
@@ -369,6 +368,9 @@ Font-size: 26px;
     align-items: center;
     display: flex;
 
+}
+.header__button_media{
+    display: none;
 }
 .maine_content__price p span{
     border-bottom: 1px dotted #000000 ;
@@ -541,4 +543,13 @@ Font-size: 26px;
     background: url("../Image/footer1.png") no-repeat center/cover;
     height: 100vh;
     margin-top: 100px;
+}
+.point_media{
+    display: none;
+}
+.media{
+    display: none;
+}
+button{
+    cursor: pointer;
 }
