@@ -1,0 +1,308 @@
+li {
+    list-style-type: none;
+
+}
+
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #2E75FF;
+    border: 2px solid #EAEDF5;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    border: 2px solid transparent;
+}
+
+.bg-light {
+    background-color: #ffffff !important;
+}
+
+.left__text h1 {
+    color: #1652AC;
+    font-size: 48px;
+    font-family: BBC Reith Sans;
+    font-weight: bold;
+    line-height: 52px;
+}
+.left__text p{
+    font-family: Noto Sans;
+    font-size: 17px;
+    line-height: 32px;
+    color: black;
+    position: relative;
+    font-weight: bold;
+    width: 515px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.left__text p::after,
+.left__text p::before{
+    content: "";
+    width: 227px;
+    height: 7px;
+    background: #EDEFF3;
+    position: absolute;
+}
+.center{
+    padding-top: 90px;
+}
+.left__text p::after{
+    top: 175px;
+}
+.left__text p::before{
+    bottom: 175px;
+}
+.left__text_revers h2{
+    font-family: BBC Reith Sans;
+    font-weight:bold;
+    font-size: 20px;
+    color:#1652AC;
+    padding-bottom: 10px;
+}
+.left__text_revers p{
+    font-size: 17px;
+    line-height: 32px;
+    font-family: "Noto Sans";
+}
+.left__text_revers p span{
+    color: black;
+    font-weight: bold;
+}
+
+.dscrptn__txt {
+    background: #0A3991;
+    padding: 150px 170px 100px;
+    box-sizing: border-box;
+    color: #FBFDFF;
+}
+.dscrptn__ft img{
+    height: 100%;
+    width: 100%;
+}
+.center__description{
+    margin-top: 30px;
+}
+.dscrptn__txt h2{
+    font-family: "BBC Reith Sans";
+    font-size: 20px;
+    letter-spacing: 5px;
+    line-height: 40px;
+}
+.dscrptn__txt p{
+    font-family: "Noto Sans";
+    font-size: 17px;
+    line-height: 32px;
+
+}
+.dscrptn__txt p span{
+    font-weight: bold;
+}
+
+.right__img img{
+    width: 100%;
+    height: 450px;
+}
+.left__center_side{
+    box-sizing: border-box;
+    padding: 0 100px;
+}
+.left__center_side h2{
+    font-family: "BBC Reith Sans";
+    color: #1652AC ;
+    font-weight: bold;
+    font-size: 20px;
+
+
+}
+.left__center_side p {
+    font-family: "Noto Sans" ;
+    font-size: 17px;
+    line-height: 32px;
+}
+.left__center_side p span{
+    font-weight: bold;
+
+}
+.color
+{
+    background: #FBFBFC;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.items h2{
+    font-family: "BBC Reith Sans";
+    font-size: 28px;
+    line-height: 34px;
+    align-self: center;
+    font-weight: bold;
+}
+.box__item{
+    width: 394px;
+    height: 140px;
+    border-radius: 10px;
+
+    background: #FFFFFF;
+    column-gap: 30px;
+    box-shadow: 0px 0px 6px  rgba(0, 0, 0, 0.15);
+    padding-left: 30px;
+}
+
+.items__items{
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.haup h2{
+    font-family: BBC Reith Sans;
+    font-size: 28px;
+    line-height: 34px;
+    align-self: center;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.haup{
+    box-shadow: 0px 0px 6px  rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 25px 20px 30px 15px;
+    margin-top: 50px;
+}
+.haup__left,
+.haup__rigth{
+    margin-top: 60px;
+    padding-right: 40px;
+
+}
+.haup__left,
+.haup__rigth p{
+    font-size: 17px;
+    line-height: 36px;
+    font-family: "Noto Sans";
+}
+.footer__slider h2{
+    letter-spacing: 5px;
+    margin: 75px 0 40px;
+}
+.butn{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 126px;
+    height: 78px;
+    box-shadow: 0px 0px 6px  rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+.column_gap{
+    column-gap: 20px;
+}
+.but{
+
+
+    display: flex;
+    margin-top: 15px;
+}
+.points{
+    height: 12px;
+    width: 12px;
+    border: 1px solid #80ABFF;
+    border-radius:50px ;
+
+}
+.point_b{
+    background: #004FC7;
+}
+.point_s{
+    background: #D0DFFD;
+}
+.footer__button h2{
+    font-family: "BBC Reith Sans";
+    margin: 40px auto;
+}
+.button_footer button{
+
+    width: 395px;
+    height: 64px;
+    background: #024CBB;
+    border-radius:14px ;
+    font-family: "BBC Reith Sans";
+    font-size: 17px;
+}
+.button_footer {
+    column-gap: 10px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+.footer{
+    margin-top: 82px;
+    column-gap: 30px;
+    background: #FFFFFF;
+}
+.footer h2{
+    font-family: "BBC Reith Sans";
+    font-weight: bold;
+    font-size: 34px;
+    color: #1652AC ;
+}
+.footer p{
+    font-family: "Noto Sans";
+    font-size: 17px;
+    line-height: 32px;
+}
+.footer__text a{
+    text-decoration: none;
+
+}
+.footer button{
+    column-gap: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 306px;
+    height: 69px;
+    padding-left: 0;
+    font-weight: bold;
+    background: #024CBB;
+
+    border-radius:18px ;
+    font-family: "BBC Reith Sans";
+    font-size: 17px;
+}
+.end__text h3{
+    font-family: "Noto Sans";
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 32px;
+    color:#A3ADBA;
+}
+.footer_end{
+    border-top: 2px solid #EEF0F4 ;
+    margin-top: 80px;
+    column-gap: 8%;
+    padding-top: 50px;
+    display: none;
+}
+.end__text p{
+    font-size: 17px;
+    color: #9EABBB;
+    line-height: 32px;
+}
+.end__text a{
+    text-decoration: none;
+}
+.end__text p span{
+    color: black;
+
+}
+
+.media{
+    display: none;
+}
+
+
+
