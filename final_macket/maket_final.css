@@ -1,0 +1,445 @@
+*{
+    font-family: "Roboto";
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+:root{
+    --font_size_nav: 14px;
+    --color_btn: #005BB9;
+
+
+}
+.container{
+    width: 1476px;
+    display: block;
+    box-sizing: border-box;
+
+}
+p,h2,.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-brand{
+    font-family: Roboto;
+
+}
+.btn-primary{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;   background: var(--color_btn);
+}
+h2{
+    font-weight: bold;
+    font-size: 24px;
+}
+.bdrs20px{
+    border-radius:20px ;
+}
+.container-fluid{
+    background: #0F2438;
+    height: 36px;
+}
+.header{
+    box-sizing: border-box;
+}
+.navbar{
+    padding-top: 0px;
+
+}
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-brand{
+    color: #FFFFFF;
+    font-size: var(--font_size_nav);
+    line-height: 16px;
+}
+.time_work img{
+    height: 32px;
+}
+.time_work p{
+    text-align: left;
+    padding-left: 10px;
+    text-align: right;
+}
+.bg_gr{
+    background: #E1EFD0;
+    padding: 8px 16px;
+}
+.burger{
+    width: 20px;
+    background: #FFFFFF;
+    height: 3px;
+    margin: 3px;
+}
+.burger1{
+    margin-right: 10px;
+}
+.btn_1{
+
+    width: 186px;
+    height: 53px;
+}
+.container-fluid{
+    padding: 0;
+}
+.search_btn {
+    align-items: center;
+    width: 650px;
+    background: #F4F5FA;
+    height: 53px;
+}
+.search_btn p{
+    color: #C2C5DA;
+    margin-left: 20px;
+}
+
+.btn_2 {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    height: 100%;
+    width: 100px;
+}
+
+
+.act_ico_border {
+    border-right: 1px solid  #E1E5F8;
+    padding-right: 25px;
+    margin-right: 25px;
+}
+
+.shadow {
+    box-shadow: 0px 0px 6px  rgba(0, 0, 0, 0.15);
+    padding-bottom: 20px;
+    display: block;
+    box-sizing: border-box;
+
+}
+.left__slide{
+    background: url("img/bg.png") no-repeat center/cover;
+    height: 390px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius:20px ;
+    position: relative;
+}
+
+.dscrp__div::before,
+.foto__div::after{
+    width: 40px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    position: absolute;
+}
+.dscrp__div::before{
+    left: 23px;
+    top: 50%;
+    content: url("img/Chevron Right 1.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.foto__div::after{
+    content: url("img/Chevron Rig 1.png");
+    display: flex;
+    top: 50%;
+    right: 23px;
+    align-items: center;
+    justify-content: center;
+
+}
+.dscrp__div {
+    padding-left: 150px;
+}
+.dscrp__div h3{
+    color: #717171;
+}
+
+.price p:nth-child(1){
+    font-size: 37px;
+    color: #005BB9;
+    margin-right: 10px;
+}
+.price p{
+    color:#C2C5DA;
+    align-self: flex-end;
+}
+
+.point1 {
+    height: 16px;
+    width: 16px;
+    border-radius: 50px ;
+}
+.black__point{
+    background: #000;
+}
+.point{
+    position: absolute;
+    bottom: 20px;
+    right: 50%;
+}
+.white__point{
+    background: #FFFFFF;
+}
+
+.action {
+    background: #F4F5FA;
+    height: 190px;
+    border-radius: 20px ;
+    margin-left: 20px;
+
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+.foto__content img{
+    height: 80px;
+}
+.foto__content>.flex-wrap>p{
+    font-size: 12px;
+}
+.price_yel p:nth-child(1){
+    font-size: 20px;
+    color: #FFB800;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.price_yel p{
+    color:#C2C5DA;
+}
+.price_yel button img{
+    height: 16px;
+}
+.price_yel button{
+    height: 39px;
+    width: 57px;
+}
+.fg{
+    flex-grow: 1;
+}
+
+.mini__slider_div {
+    box-sizing: border-box;
+    height: 184px;
+    border: 1px solid #E1E5F8;
+}
+.mini__foto img{
+    height: 100%;
+}
+.text__mini_slide .btn {
+    padding: 3px 15px;
+    font-family: Roboto;
+    font-size: 12px;
+    width: 86px;
+}
+
+.mini__slider {
+    column-gap: 30px;
+    box-sizing: border-box;
+    width: 96%;
+    position: relative;
+}
+.but__r:before,
+.but__r::after{
+    width: 40px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    position: absolute;
+}
+.but__r::before{
+    left:-25px;
+    top: 65px;
+    content: url("img/Chevron Right 1.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.but__r::after{
+    content: url("img/Chevron Rig 1.png");
+    display: flex;
+    top: 65px;
+    left: 1277px;
+    align-items: center;
+    justify-content: center;
+
+}
+.but__r{
+    position: absolute;
+}
+
+.right__side_slide {
+    box-sizing: border-box;
+    width: 100%;
+}
+.col-xl-4{
+    flex:none;
+}
+
+.btn-r {
+    border:1px solid var(--color_btn) ;
+    color: var(--color_btn);
+}
+
+.goods__foto img{
+    width: 100%;
+}
+
+.review p span{
+    color:#FFB800 ;
+}
+.review p{
+    font-size: 14px;
+    color:#B0B0B0 ;
+}
+.review img{
+    position: relative;
+}
+.rel{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    background: #FFB800;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box__goods p{
+    font-size: 13px;
+}
+.box__goods>p u{
+    color: #005BB9 ;
+}
+.button__goods img{
+    height: 20px;
+}
+.goods__foto img{
+    width: 100%;
+}
+
+.img_cen {
+    align-self: center;
+}
+
+
+.box__goods {
+    margin-top: auto;
+}
+
+
+.border__box {
+    height: 1px;
+    width: 100%;
+    background: #E1E5F8;
+}
+.goods button{
+    align-self: center;
+
+}
+.news{
+    margin-top: 80px;
+}
+
+.big__line {
+    height: 7px;
+    width: 100%;
+    background: #F5F5F5;
+    /*position: relative;*/
+}
+.crcl{
+    height: 9px;
+    width: 9px;
+    background: #0C1A2A;
+    margin-left: 50px;
+    border-radius:50px ;
+}
+.line{
+
+    background: #0C1A2A;
+    width: 1px;
+    height: 20px;
+    margin-left: 54px;
+
+}
+
+
+.data__ {
+    width: 20%;
+}
+.news__text h2{
+    font-size: 19px;
+    color: #005BB9;
+    margin-top:17px ;
+}
+
+.text_data {
+    width: 106px;
+    height: 22px;
+    background: #0C1A2A;
+    color: #FFFFFF;
+    text-align: center;
+}
+.news__text{
+    width: 20%;
+    padding-top: 0;
+
+}
+.footer{
+    background:#0C1A2A;
+    height: 408px;
+    position: relative;
+    margin-top: 320px;
+}
+.footer h2{
+    color: #868DAC ;
+    font-size: 18px;
+    padding-top: 30px;
+}
+.footer p{
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.adres {
+    margin-left: 85px;
+}
+
+.footer__button {
+    width: 470px;
+    height: 40px;
+    align-items: center;
+    border: 1px solid #203246;
+}
+.footer__button p{
+    color: #ADBDD1;
+    font-size: 16px;
+}
+.footer__button button{
+    border-top-left-radius:0 ;
+    border-bottom-left-radius: 0;
+    width: 177px;
+
+}
+
+.end__footer {
+    position: absolute;
+    left: 16%;
+}
+.media, .media2{
+    display: none;
+}
